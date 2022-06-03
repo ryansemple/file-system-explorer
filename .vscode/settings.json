@@ -1,0 +1,8 @@
+{
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"jest.autoRun": "off",
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": true
+	}
+}

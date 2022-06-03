@@ -1,0 +1,55 @@
+{
+	"name": "file-system-explorer",
+	"version": "1.0.0",
+	"description": "file system explorer",
+	"main": "index.js",
+	"scripts": {
+		"build": "webpack",
+		"dev": "webpack serve",
+		"lint": "npx eslint ./src/",
+		"lint:watch": "npx esw --ext .js,.ts ./src --watch",
+		"test": "jest",
+		"test:watch": "jest --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ryansemple/file-system-explorer.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ryansemple/file-system-explorer/issues"
+	},
+	"homepage": "https://github.com/ryansemple/file-system-explorer#readme",
+	"devDependencies": {
+		"@babel/core": "^7.18.2",
+		"@types/jest": "^27.5.2",
+		"@typescript-eslint/eslint-plugin": "^5.26.0",
+		"@typescript-eslint/parser": "^5.26.0",
+		"babel-loader": "^8.2.5",
+		"babel-preset-env": "^1.7.0",
+		"css-loader": "^6.7.1",
+		"eslint": "^8.16.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-prettier": "^4.0.0",
+		"eslint-watch": "^8.0.0",
+		"html-webpack-plugin": "^5.5.0",
+		"jest": "^28.1.0",
+		"jest-environment-jsdom": "^28.1.0",
+		"node-sass": "^7.0.1",
+		"prettier": "^2.6.2",
+		"prettier-plugin-organize-imports": "^2.3.4",
+		"raw-loader": "^4.0.2",
+		"sass-loader": "^13.0.0",
+		"style-loader": "^3.3.1",
+		"ts-jest": "^28.0.3",
+		"ts-loader": "^9.3.0",
+		"typescript": "^4.7.2",
+		"webpack": "^5.72.1",
+		"webpack-cli": "^4.9.2",
+		"webpack-dev-server": "^4.9.0"
+	}
+}

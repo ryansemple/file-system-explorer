@@ -1,0 +1,48 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>File System Explorer</title>
+	</head>
+	<body>
+		<header>
+			<div id="header_content">
+				<h1>File System Explorer</h1>
+				<div id="darkmode_switch_wrapper">
+					<p>Darkmode:</p>
+					<label class="switch" id="darkmode_switch" tabindex="0">
+						<input
+							type="checkbox"
+							id="darkmode_checkbox"
+							class="checkbox"
+							aria-hidden="true"
+							tabindex="-1"
+							checked />
+						<span class="slider"></span>
+					</label>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div id="explorer" class="flex">
+				<div class="col_25" id="sidebar">
+					<div id="sidebar_content"></div>
+					<div id="drag"></div>
+				</div>
+				<div id="panel">
+					<table id="table" class="col_100">
+						<thead>
+							<tr>
+								<th scope="col" class="left">Name</th>
+								<th scope="col" class="left">Date Modified</th>
+								<th scope="col" class="right">File Size</th>
+							</tr>
+						</thead>
+						<tbody></tbody>
+					</table>
+					<div id="alert"><p></p></div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>

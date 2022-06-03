@@ -1,0 +1,266 @@
+[
+	{
+		"type": "folder",
+		"name": "Plants",
+		"modified": "2020-01-01T04:00:00.000Z",
+		"children": [
+			{
+				"type": "folder",
+				"name": "Trees",
+				"modified": "2020-03-01T04:00:00.000Z",
+				"children": [
+					{
+						"type": "folder",
+						"name": "Acer",
+						"modified": "2022-02-02T04:00:00.000Z",
+						"children": [
+							{
+								"type": "folder",
+								"name": "Information",
+								"modified": "2018-11-13T08:00:00.000Z",
+								"children": [
+									{
+										"type": "file",
+										"name": "information.pdf",
+										"modified": "2019-12-06T09:00:00.000Z",
+										"size": 541
+									}
+								]
+							},
+							{
+								"type": "file",
+								"name": "instructions.pdf",
+								"modified": "2021-07-06T04:00:00.000Z",
+								"size": 177
+							},
+							{
+								"type": "file",
+								"name": "Acer Guide.txt",
+								"modified": "2019-08-22T04:00:00.000Z",
+								"size": 89
+							}
+						]
+					},
+					{
+						"type": "folder",
+						"name": "Beech",
+						"modified": "2022-04-17T09:00:00.000Z",
+						"children": []
+					},
+					{
+						"type": "file",
+						"name": "birch.png",
+						"modified": "2022-08-12T04:00:00.000Z",
+						"size": 76000
+					}
+				]
+			},
+			{
+				"type": "folder",
+				"name": "Shrubs",
+				"modified": "2019-02-07T01:00:00.000Z",
+				"children": [
+					{
+						"type": "file",
+						"name": "conifer.txt",
+						"modified": "2022-02-02T04:00:00.000Z",
+						"size": 65
+					},
+					{
+						"type": "file",
+						"name": "deciduous.pdf",
+						"modified": "2022-10-29T04:00:00.000Z",
+						"size": 9000
+					},
+					{
+						"type": "file",
+						"name": "evergreen.jpg",
+						"modified": "2018-08-02T04:00:00.000Z",
+						"size": 76000
+					}
+				]
+			}
+		]
+	},
+	{
+		"type": "folder",
+		"name": "Animals",
+		"modified": "2020-04-23T09:00:00.000Z",
+		"children": [
+			{
+				"type": "folder",
+				"name": "Cetacean",
+				"modified": "2020-03-01T04:00:00.000Z",
+				"children": [
+					{
+						"type": "file",
+						"name": "beluga.txt",
+						"modified": "2018-02-02T04:00:00.000Z",
+						"size": 95
+					},
+					{
+						"type": "file",
+						"name": "orca.pdf",
+						"modified": "2022-02-02T04:00:00.000Z",
+						"size": 8000
+					},
+					{
+						"type": "file",
+						"name": "narwhal.png",
+						"modified": "2017-04-04T04:00:00.000Z",
+						"size": 76000
+					}
+				]
+			},
+			{
+				"type": "folder",
+				"name": "Camelids",
+				"modified": "2016-02-07T01:00:00.000Z",
+				"children": [
+					{
+						"type": "file",
+						"name": "camel.txt",
+						"modified": "2020-11-24T04:00:00.000Z",
+						"size": 75
+					},
+					{
+						"type": "file",
+						"name": "llama.pdf",
+						"modified": "2021-08-29T04:00:00.000Z",
+						"size": 2000
+					},
+					{
+						"type": "file",
+						"name": "alpaca.jpg",
+						"modified": "2019-09-09T04:00:00.000Z",
+						"size": 36000
+					}
+				]
+			}
+		]
+	},
+	{
+		"type": "folder",
+		"name": "Fungi",
+		"modified": "2020-02-11T11:00:00.000Z",
+		"children": [
+			{
+				"type": "folder",
+				"name": "Basidiomycota",
+				"modified": "2021-06-01T04:00:00.000Z",
+				"children": [
+					{
+						"type": "file",
+						"name": "mushroom.txt",
+						"modified": "2022-07-12T04:00:00.000Z",
+						"size": 55
+					},
+					{
+						"type": "file",
+						"name": "puffball.pdf",
+						"modified": "2022-12-06T04:00:00.000Z",
+						"size": 8000
+					},
+					{
+						"type": "file",
+						"name": "polypore.png",
+						"modified": "2022-02-02T04:00:00.000Z",
+						"size": 76000
+					}
+				]
+			},
+			{
+				"type": "folder",
+				"name": "Ascomycota",
+				"modified": "2019-02-07T01:00:00.000Z",
+				"children": [
+					{
+						"type": "file",
+						"name": "morel.txt",
+						"modified": "2022-02-02T04:00:00.000Z",
+						"size": 65
+					},
+					{
+						"type": "file",
+						"name": "truffles.pdf",
+						"modified": "2022-10-29T04:00:00.000Z",
+						"size": 9000
+					},
+					{
+						"type": "file",
+						"name": "penicillin.jpg",
+						"modified": "2018-08-02T04:00:00.000Z",
+						"size": 76000
+					}
+				]
+			}
+		]
+	},
+	{
+		"type": "folder",
+		"name": "Protists",
+		"modified": "2021-11-03T11:00:00.000Z",
+		"children": [
+			{
+				"type": "file",
+				"name": "forams.txt",
+				"modified": "2021-07-15T04:00:00.000Z",
+				"size": 85
+			},
+			{
+				"type": "file",
+				"name": "kelp.pdf",
+				"modified": "2020-02-29T04:00:00.000Z",
+				"size": 777
+			},
+			{
+				"type": "file",
+				"name": "sea_lettuce.jpg",
+				"modified": "2015-03-06T04:00:00.000Z",
+				"size": 46900
+			},
+			{
+				"type": "file",
+				"name": "Marimo.txt",
+				"modified": "2017-12-19T04:00:00.000Z",
+				"size": 101
+			},
+			{
+				"type": "file",
+				"name": "Rhizaria.pdf",
+				"modified": "2020-02-20T04:00:00.000Z",
+				"size": 888
+			},
+			{
+				"type": "file",
+				"name": "Irish Moss.txt",
+				"modified": "2019-04-17T04:00:00.000Z",
+				"size": 66
+			},
+			{
+				"type": "file",
+				"name": "Wakame.txt",
+				"modified": "2021-08-03T04:00:00.000Z",
+				"size": 87
+			},
+			{
+				"type": "file",
+				"name": "Radiolaria.txt",
+				"modified": "2022-01-03T04:00:00.000Z",
+				"size": 120
+			},
+			{
+				"type": "file",
+				"name": "Protists.txt",
+				"modified": "2018-05-03T04:00:00.000Z",
+				"size": 109
+			}
+		]
+	},
+	{
+		"type": "folder",
+		"name": "Monera",
+		"modified": "2021-09-15T11:00:00.000Z",
+		"children": []
+	}
+]

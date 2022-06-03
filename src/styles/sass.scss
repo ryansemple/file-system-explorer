@@ -1,0 +1,68 @@
+$fontFamily: 'Source Sans Pro', sans-serif;
+$decorativeFontFamily: 'Press Start 2P', cursive;
+$bodyFontSize: 1.1rem;
+
+$offBlack: #040404;
+$lightGrey: #e3e3e3;
+$darkGrey: #1c1c1c;
+$mediumDarkGrey: #444444;
+$mediumGrey: #555555;
+$mediumLightGrey: #8d8d8d;
+$borderColor: $mediumGrey;
+$orange: #f77f00;
+
+$gutterDimension: 20px;
+$doubleGutterDimension: $gutterDimension * 2;
+$halfGutterDimension: $gutterDimension / 2;
+$iconDimension: 17px;
+$desktopMaxContentWidth: 1320px;
+$borderWidth: 1px;
+$dragWidth: 8px;
+
+$sidebarItemHeaderClass: 'sidebar_item_header';
+
+$transitionSpeed: 0.4s;
+
+$sliderWidth: 60px;
+$sliderHeight: 34px;
+$sliderBallDimension: 26px;
+$sliderBallPadding: 4px;
+$sliderTransform: translateX(26px);
+
+@mixin transform($transform) {
+	-webkit-transform: $transform;
+	-ms-transform: $transform;
+	transform: $transform;
+}
+
+@mixin border() {
+	border: $borderWidth solid $borderColor;
+}
+
+@mixin baseIcon {
+	content: '';
+	display: inline-block;
+	background-size: $iconDimension $iconDimension;
+	height: $iconDimension;
+	width: $iconDimension;
+	background-repeat: no-repeat;
+	top: 2px;
+	position: relative;
+	margin-right: $halfGutterDimension;
+}
+
+@mixin fileIcon {
+	@include baseIcon();
+	background-image: url('../icons/file.svg');
+}
+
+@mixin folderIcon {
+	@include baseIcon();
+	background-image: url('../icons/folder.svg');
+}
+
+@mixin userSelectNone {
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}

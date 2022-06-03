@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"resolveJsonModule": true,
+		"noImplicitAny": true,
+		"module": "es6",
+		"target": "es6",
+		"allowJs": false,
+		"types": ["node", "jest"],
+		"typeRoots": ["./assets/js/types", "node_modules/@types"],
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"lib": ["es2019", "dom", "dom.iterable"],
+		"sourceMap": true
+	},
+	"exclude": ["./node_modules", "./public"],
+	"include": ["src"]
+}
